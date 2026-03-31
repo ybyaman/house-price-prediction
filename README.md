@@ -36,4 +36,7 @@ Proje modüler bir mimariyle kurgulanmıştır:
 4. Model performansını test edin (Evaluate):
    ```bash
    python3 src/evaluate.py
+5. Test verisi için tahmin oluşturun (Predict):
+   ```bash
+   python3 src/predict.py
    
