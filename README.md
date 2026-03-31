@@ -27,3 +27,13 @@ Proje modüler bir mimariyle kurgulanmıştır:
    ```bash
    git clone [https://github.com/ybyaman/house-price-prediction.git](https://github.com/ybyaman/house-price-prediction.git)
    cd house-price-prediction
+2. Gerekli kütüphaneleri yükleyin:
+   ```bash
+   pip install -r requirements.txt
+3. Modeli Eğitin ve Kaydedin:
+   ```bash
+   python3 src/train.py
+4. Model performansını test edin (Evaluate):
+   ```bash
+   python3 src/evaluate.py
+   
